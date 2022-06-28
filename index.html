@@ -2,14 +2,17 @@
   <head>
     
     <style type="text/css">
-      #container {
-        position: relative;
+      #logo {
+        position: absolute;
         z-index: 100;
+         top: 50%;
+         left: 50%;
+         width: 500px;
+         height: 500px;
+         margin-top: -250px;
+         margin-left: -250px;
       }
-      #div2 {
-        z-index: 100;
-        position: absolute; 
-      }
+     
 
       * {
   box-sizing: border-box;
@@ -961,11 +964,6 @@ body {
     </head>
   <body>
     
-    <div id="container">
- <div id="div2">
-      <img src="tetra-infinity.png" />
-      </div>
-</div>
 
 
     
@@ -1115,6 +1113,9 @@ body {
   <div class='c'></div>
   <div class='c'></div>
   <div class='c'></div>
+      <div id="div2">
+      <img id="logo" src="tetra-infinity.png" />
+      </div>
 </div>
 
   </body>
